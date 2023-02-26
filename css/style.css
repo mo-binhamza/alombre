@@ -317,6 +317,7 @@ figure {
 
 .nav-header {
   position: relative;
+  font-family: 'BAUHS93';
   float: left;
   width: 100%; }
 
@@ -334,6 +335,7 @@ figure {
   top: 0;
   left: 0;
   font-size: 16px;
+  font-family: 'BAUHS93';
   color: #44C662;
   background: rgba(0, 0, 0, 0.06);
   padding: 10px;
@@ -342,8 +344,10 @@ figure {
   -ms-border-radius: 50%;
   border-radius: 50%; }
 #fh5co-logo a {
+  font-family: 'BAUHS93';
   color: #44C662; }
 #fh5co-logo a:hover, #fh5co-logo a:focus {
+  font-family: 'BAUHS93';
   color: #44C662 !important; }
 #fh5co-logo span {
   font-weight: 300; }
