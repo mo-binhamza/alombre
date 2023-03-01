@@ -1,7 +1,7 @@
 1. Top ribbon: Location (main frame), Properties (link to sales/rent scroll), Key Features (link to highlights), Contact Us (form)
 
 2. In Main frame, add a Google map snippette that will be redirecting to google.in address:
-https://maps.google.com/maps?q=18.437246322631836%2C79.1319351196289&z=17&hl=en
+https://www.google.com/maps/place/%C3%80+L'ombre+Arcadia/@18.437386,79.1320348,19.16z/data=!4m6!3m5!1s0x3bccd94cb40d5c95:0x81037fa6bd87ce47!8m2!3d18.4372872!4d79.1319349!16s%2Fg%2F11sk1t466n?hl=en-IN
 
 3. For the Main frame, use elevation image as background, which is currently in Sales section. If possible, make it clickable to pop out for full view.
 
