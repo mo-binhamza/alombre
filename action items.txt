@@ -1,0 +1,15 @@
+1. Top ribbon: Location (main frame), Properties (link to sales/rent scroll), Key Features (link to highlights), Contact Us (form)
+
+2. In Main frame, add a Google map snippette that will be redirecting to google.in address:
+https://maps.google.com/maps?q=18.437246322631836%2C79.1319351196289&z=17&hl=en
+
+3. For the Main frame, use elevation image as background, which is currently in Sales section. If possible, make it clickable to pop out for full view.
+
+4. Changing icons for the highlights.
+
+5. Make Register interest form central 
+
+6. Add radio button for sale/Rent in the form
+
+7. Replace buttons with Icons under Sales: Floor plan, Elevation plan and Contact Us.
+   For Rent, only give contact us short cut. Remove floor plan.
