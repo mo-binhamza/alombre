@@ -13,3 +13,5 @@ https://maps.google.com/maps?q=18.437246322631836%2C79.1319351196289&z=17&hl=en
 
 7. Replace buttons with Icons under Sales: Floor plan, Elevation plan and Contact Us.
    For Rent, only give contact us short cut. Remove floor plan.
+   
+8. About section, add the Alombre Arcadia in appropriate font. Currently, it disappeared after I added the font.
