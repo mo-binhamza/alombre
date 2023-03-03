@@ -208,4 +208,36 @@
 	});
 
 
+	// Get the modal
+	var modal = document.getElementById("alombreModal");
+
+	// Get the image and insert it inside the modal - use its "alt" text as a caption
+	var img = document.getElementById("alombreLarge");
+	var modalImg = document.getElementById("alombre_building");
+	var captionText = document.getElementById("alombre_caption");
+	img.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = 'images/alombre_building.jpeg';
+		captionText.innerHTML = this.alt;
+	}
+
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("alombre-close")[0];
+
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() {
+		modal.style.display = "none";
+	}
+
+	$(document).keyup(function(e) {
+		if((e.key=='Escape' || e.key=='Esc' || e.keyCode==27)) {
+			modal.style.display = "none";
+		}
+	})
+
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+	  })
+
+
 }());

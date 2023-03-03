@@ -30,8 +30,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,300' rel='stylesheet' type='text/css'>
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/font.css">
 	<link rel="stylesheet" href="css/animate.css">
@@ -51,8 +50,10 @@
 	<link rel="stylesheet" href="css/cs-select.css">
 	<link rel="stylesheet" href="css/cs-skin-border.css">
 	
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css?x=1">
 
+
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -75,17 +76,7 @@
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
 							<li class="active"><a href="index.html">Home</a></li>
-							<li>
-								<a href="properties.html" class="fh5co-sub-ddown">Properties</a>
-								<ul class="fh5co-sub-menu">
-									<li><a href="#">Family</a></li>
-									<li><a href="#">CSS3 &amp; HTML5</a></li>
-									<li><a href="#">Angular JS</a></li>
-									<li><a href="#">Node JS</a></li>
-									<li><a href="#">Django &amp; Python</a></li>
-								</ul>
-							</li>
-							<li><a href="#fh5co-about">Location</a></li>
+							<li><a href="#fh5co-main">Location</a></li>
 							<li><a href="#fh5co-hero">Properties</a></li>
 							<li><a href="#fh5co-features">Key Features</a></li>
 							<li><a href="#fh5co-contact">Contact Us</a></li>
@@ -96,24 +87,44 @@
 		</header>
 
 		<!-- end:header-top -->
-		<div id="fh5co-about" class="fh5co-agent">
+		<div id="fh5co-main" class="fh5co-agent">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3><a style="font-family: 'BAUHS93'">À L'OMBRE ARCADIA</a></h3>
-						<p>A selection of stunning brand new 3-bedroom flats in a contemporary block that is set to redefine the skyline of Karimnagar. </p>
+					<div class="col-md-6 col-6 text-center animate-box justify-content-center">
+						<div id="fh5co-about" class="fh5co-agent">
+
+							<div class="container-fluid">
+								<div class="row-fluid">
+									<div class="col-12 text-center">
+										<p style="font-size:1.5em;margin-top:5%">A selection of stunning brand new 3-bedroom flats in a contemporary block that is set to redefine the skyline of Karimnagar. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-6 animate-box">
+						<img src="images/alombre_building_1.jpg" id="alombreLarge" class="rounded float-right" alt="À L'OMBRE ARCADIA" />
 					</div>
 				</div>
 			</div>
 		</div>
 
-
-
+		<div id="fh5co-map">
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="col col-md">
+						<div class="gmap_canvas col-12 text-center animate-box justify-content-center">
+							<iframe width="100%" height="500px" id="gmap_canvas" src="https://maps.google.com/maps?q=18.437386,79.1320348&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<aside id="fh5co-hero" class="js-fullheight">
 			<div class="flexslider js-fullheight">
 				<ul class="slides">
-			   	<li style="background-image: url(images/img_bg_5.jpg);">
+			   	<li style="background-image: url(images/img_bg_6.jpg);">
 			   		<div class="container-fluid">
 			   			<div class="row">
 				   			<div class="col-md-4 col-md-offset-4 col-md-pull-4 js-fullheight slider-text">
@@ -129,15 +140,15 @@
 												<span>3 BHK + 2 Bathrooms</span>
 												<span>Parking (Contact for details)</span>
 											</p>
-											<p><a class="btn btn-primary btn-lg" href="docs/Revised Typical Floor Plan. 21-09-2020 (1).pdf" target="_blank">Floor plans</a></p>
-											<p><a class="btn btn-primary btn-lg" href="docs/front_elevation_details.pdf" target="_blank">Elevation plan</a></p>
+											<p><a class="btn btn-primary btn-lg pull-left" href="docs/Revised Typical Floor Plan. 21-09-2020.pdf" data-toggle="tooltip" data-placement="bottom" title="Floor plans" target="_blank"><img alt="Floor plans" title="Floor plans" src="images/architecture-and-city.png?x=3"  /></a>
+											&nbsp;<a class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="bottom" title="Elevation plans" href="docs/front_elevation_details.pdf" target="_blank"><img alt="Elevation plans" title="Elevation plans" src="images/house-plan.png"  /></a></p>
 				   					</div>
 				   				</div>
 				   			</div>
 				   		</div>
 			   		</div>
 			   	</li>
-			   	<li style="background-image: url(images/img_bg_2.jpg);">
+			   	<li style="background-image: url(images/img_bg_7.jpg);">
 			   		<div class="container-fluid">
 			   			<div class="row">
 				   			<div class="col-md-4 col-md-offset-4 col-md-pull-4 js-fullheight slider-text">
@@ -152,7 +163,7 @@
 												<span>3 BHK + 2 Bathrooms</span>
 												<span>Parking (conditions apply)</span>
 											</p>
-											<p><a class="btn btn-primary btn-lg" href="docs/front_elevation_details.pdf" target="_blank">Floor Plans</a></p>
+											<p><a class="btn btn-primary btn-lg" href="docs/front_elevation_details.pdf" data-toggle="tooltip" data-placement="bottom" title="Floor plans" target="_blank"><img alt="Floor plans" title="Floor plans" src="images/architecture-and-city.png?x=3"  /></a></p>
 				   					</div>
 				   				</div>
 				   			</div>
@@ -248,10 +259,10 @@
 
 		<!-- fh5co-blog-section -->
 		<div id="fh5co-contact" class="fh5co-contact">
-			<div class="half-contact">
+			<div class="half-contact col-md-offset-3">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-md-12 col-md-offset-0 text-center heading-section animate-box">
+						<div class="col-md-12 col-12 col-md-offset-0 text-center heading-section animate-box">
 							<h3>Register your interest</h3>
 							<p>Please fill in the form below and we will soon be in touch with you to discuss your needs.</p>
 						</div>
@@ -289,18 +300,18 @@
 					</div>
 				</div>
 			</div>
-			<div class="half-bg" style="background-image: url(images/cover_bg_2.jpg);"></div>
 		</div>
 		<footer>
 			<div id="footer">
 				<div class="container">
 					<div class="row row-bottom-padded-md">
-						<div class="col-md-3">
+						<div class="col-md-12">
 							<h3 class="section-title">About À L'ombre Arcadia </h3>
 							<p>Residential development in a unique and sort-after location in Karimnagar. The building is set to be completed by mid-2023.</p>
 						</div>
+						<div class="col-md-12">
 							<p>Copyright 2023 Free Html5 <a href="#">Module</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://freehtml5.co/" target="_blank">Freehtml5.co</a> / Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a> &amp; <a href="http://blog.gessato.com/" target="_blank">Gessato</a></p>
-							
+						</div>
 						</div>
 					</div>
 				</div>
@@ -314,6 +325,21 @@
 
 	</div>
 	<!-- END fh5co-wrapper -->
+
+		<!-- The Modal -->
+		<div id="alombreModal" class="alombre-modal">
+
+			<!-- The Close Button -->
+			<span class="alombre-close">&times;</span>
+
+			<!-- Modal Content (The Image) -->
+			<img class="alombre-modal-content" id="alombre_building">
+
+			<!-- Modal Caption (Image Text) -->
+			<div id="alombre_caption"></div>
+
+		</div>
+
 
 	<!-- jQuery -->
 
@@ -339,7 +365,8 @@
 
 	
 	<!-- Main JS -->
-	<script src="js/main.js"></script>
+	<script src="js/main.js?z=12"></script>
+
 
 	</body>
 </html>
