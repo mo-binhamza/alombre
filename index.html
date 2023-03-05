@@ -54,6 +54,7 @@
 
 
 	<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+	<script src="js/contact.js?x=2"></script>
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -270,6 +271,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-12 animate-box">
+							<form id="contact_form">
 							<div class="row">
 								<div class="col-md-12">
 									<div class="form-group form-inline">
@@ -281,22 +283,22 @@
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Full Name">
+										<input type="text" class="form-control" id="name-input" placeholder="Full Name">
 									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Email">
+										<input type="text" class="form-control" id="email-input" placeholder="Email">
 									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Mobile">
+										<input type="text" class="form-control" id="phone-input" placeholder="Mobile">
 									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+										<textarea name="" class="form-control" id="message-input" cols="30" rows="7" placeholder="Message"></textarea>
 									</div>
 								</div>
 								<div class="col-md-12">
@@ -305,6 +307,7 @@
 									</div>
 								</div>
 							</div>
+							</form>
 						</div>
 					</div>
 				</div>

@@ -196,6 +196,7 @@
 		}
 	}; 
 
+
 	// Document on load.
 	$(function(){
 		mainMenu();
@@ -237,7 +238,12 @@
 
 	$(function () {
 		$('[data-toggle="tooltip"]').tooltip()
-	  })
+	})
 
+	$("#contact_form").submit(function(e) {
+		submitToApi(e);
+		e.preventDefault();
+	});
+	
 
 }());
