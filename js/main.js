@@ -244,6 +244,7 @@
 		submitToApi(e);
 		e.preventDefault();
 	});
-	
+
+	$('.alert').css('display', 'none');
 
 }());

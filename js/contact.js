@@ -15,10 +15,6 @@ function submitToApi(e) {
         alert ("Please enter valid mobile number");
         return;
     }
-    if ($("#email-input").val()=="") {
-        alert ("Please enter your email id");
-        return;
-    }
 
     var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
     if (!reeamil.test($("#email-input").val())) {
@@ -30,13 +26,17 @@ function submitToApi(e) {
     var phone = $("#phone-input").val();
     var email = $("#email-input").val();
     var desc = $("#message-input").val();
+    var radio = $('input[name=inlineRadioOptions]:checked', '#contact_form').val();
     var dataToSend = {
        name : name,
        phone : phone,
        email : email,
-       desc : desc
+       desc : desc, 
+       radio: radio
      };
-
+    $('.alert').css('display', 'block');
+    $('.alert').css('visibility', 'visible');
+return;
      $.ajax({
       url: "https://to1aurlp44.execute-api.ap-south-1.amazonaws.com/v1/sendEmail",
       method: "POST",
