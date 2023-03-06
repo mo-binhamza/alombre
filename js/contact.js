@@ -1,31 +1,3 @@
-// function submitToApi(e) {
-//   if (!e) e = window.event;
-//   e.preventDefault();
-
-  
-//   $.ajax({
-//     url: "https://to1aurlp44.execute-api.ap-south-1.amazonaws.com/v1/sendEmail",
-//     method: "POST",
-//     crossDomain: true,
-//     contentType: 'application/json',
-//     timeout: 0,
-//     "headers": {
-//     "Content-Type": "application/json"
-//   },
-//     dataType: "json",
-//     data: JSON.stringify({
-//       "email": "georgeemagnets@gmail.com",
-//       "name": "georgesssss"
-//     }),
-//   }).done(function (response) {
-//     console.log(response);
-//   }).fail(function(response) {
-//     console.log(response);
-//   });
-
-// }
-
-
 
 function submitToApi(e) {
     if (!e) e = window.event;
