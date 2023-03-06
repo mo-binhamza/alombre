@@ -1,7 +1,7 @@
 1. Top ribbon: Location (main frame), Properties (link to sales/rent scroll), Key Features (link to highlights), Contact Us (form)
 
 2. In Main frame, add a Google map snippette that will be redirecting to google.in address:
-https://www.google.com/maps/place/%C3%80+L'ombre+Arcadia/@18.437386,79.1320348,19.16z/data=!4m6!3m5!1s0x3bccd94cb40d5c95:0x81037fa6bd87ce47!8m2!3d18.4372872!4d79.1319349!16s%2Fg%2F11sk1t466n?hl=en-IN
+https://www.google.com/maps/place/%C3%80+L'ombre+Arcadia/@18.437386,79.1320348,X`19.16z/data=!4m6!3m5!1s0x3bccd94cb40d5c95:0x81037fa6bd87ce47!8m2!3d18.4372872!4d79.1319349!16s%2Fg%2F11sk1t466n?hl=en-IN
 
 3. For the Main frame, use elevation image as background, which is currently in Sales section. If possible, make it clickable to pop out for full view.
 
@@ -14,4 +14,9 @@ https://www.google.com/maps/place/%C3%80+L'ombre+Arcadia/@18.437386,79.1320348,1
 7. Replace buttons with Icons under Sales: Floor plan, Elevation plan and Contact Us.
    For Rent, only give contact us short cut. Remove floor plan.
    
-8. About section, add the Alombre Arcadia in appropriate font. Currently, it disappeared after I added the font.
+   =================================================================
+
+1. Add Success prompt once the form is successfully submitted. "Thank you for your interest. We will be in touch soon."
+2. Make Email field optional
+3. Include Sale/Rent in email content.
+4. In the main frame, Alombre arcadia not being seen due to font addition.
