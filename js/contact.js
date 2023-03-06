@@ -36,8 +36,7 @@ function submitToApi(e) {
      };
     $('.alert').css('display', 'block');
     $('.alert').css('visibility', 'visible');
-return;
-     $.ajax({
+    $.ajax({
       url: "https://to1aurlp44.execute-api.ap-south-1.amazonaws.com/v1/sendEmail",
       method: "POST",
       crossDomain: true,
